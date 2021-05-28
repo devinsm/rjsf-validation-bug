@@ -1,6 +1,11 @@
 # RSJF Validation Bug
 
-To reproduce bug:
+# Start App
+
+1. `npm install`
+1. `npm start`
+
+# To reproduce bug
 
 1. Enter 0 in "Magic Number" input (the form is now invalid)
 1. Click "Submit" (it will fail since the form is invalid)
