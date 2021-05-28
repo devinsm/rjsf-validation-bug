@@ -6,23 +6,7 @@ import dataSchema from "./dataSchema";
 import uiSchema from "./uiSchema";
 
 const initData = {
-  name: "Sir Earnest Hemingway",
-  vegetarian: false,
-  nationality: "Other",
-  favoriteFoods: ["whiskey", "big game", "marlin", "spear fish"],
-  vaccinations: [
-    {
-      brand: "Merck & Co., Inc",
-      dose: 1,
-      disease: "chickenpox",
-    },
-    {
-      brand: "Pfizer",
-      dose: 1,
-      disease: "COVID",
-    },
-  ],
-  occupation: "Teacher",
+  magicNumber: 2,
 };
 
 function App() {

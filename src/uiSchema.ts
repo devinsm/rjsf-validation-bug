@@ -1,8 +1,8 @@
 import { UiSchema } from "@rjsf/core";
 
 const uiSchema: UiSchema = {
-  vegetarian: {
-    "ui:widget": "radio",
+  magicNumber: {
+    "ui:description": "A number dear to your heart",
   },
 };
 
